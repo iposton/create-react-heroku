@@ -1,0 +1,23 @@
+{
+  "name": "app-name",
+  "version": "0.1.0",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "postinstall": "react-scripts build"
+  },
+  "engines": {
+    "node": "~6.10.3",
+    "npm": "~5.6.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+  }
+}
